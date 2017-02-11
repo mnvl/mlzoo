@@ -2,10 +2,11 @@
 
 Simple and clean implementations of machine learning algorithms in Python. Written with love for fun and education.
 
+
 ## Principles
-* one notebook -- one algorithm,
-* each notebook should be self contained,
-* implementations should be as straightforward as possible.
+1. one notebook -- one algorithm,
+2. each notebook should be self contained,
+3. implementations should be as straightforward and easy to read as possible.
 
 
 ## License
