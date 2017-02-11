@@ -8,6 +8,13 @@ Simple and clean implementations of machine learning algorithms in Python. Writt
 2. each notebook should be self contained,
 3. implementations should be as straightforward and easy to read as possible.
 
+## Neural Networks
+Configuration | Dataset | Link
+--- | --- | ---
+ReLU + Softmax, SGD | MNIST | [neural_network_2_layers_mnist.ipynb](neural_network_2_layers_mnist.ipynb)
+2 * ReLU + Softmax, SGD | MNIST | [neural_network_3_layers_mnist.ipynb](neural_network_3_layers_mnist.ipynb)
+3 * ReLU + Softmax, SGD | CIFAR-10 | [neural_network_4_layers_cifar10.ipynb](neural_network_4_layers_cifar10.ipynb)
+3 * ReLU + Softmax, SGD + Momentum | CIFAR-10 | [neural_network_4_layers_with_momentum_cifar10.ipynb](neural_network_4_layers_with_momentum_cifar10.ipynb)
 
 ## License
 Copyright (c) 2017 Manvel Avetisian
