@@ -18,9 +18,9 @@ ReLU + Softmax, SGD | MNIST | [neural_network_2_layers_mnist.ipynb](neural_netwo
 
 ## SVM
 
-Kernel | Dataset | Link
---- | --- | ---
-dot product | synthetic (two gaussians) | [svm_dot_cvxopt.ipynb](svm_dot_cvxopt.ipynb)
+Kernel | Dataset | Optimization | Link
+--- | --- | --- | ---
+polynomial | synthetic (two gaussians) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_polynomial_cvxopt.ipynb](svm_polynomial_cvxopt.ipynb)
 
 ## License
 Copyright (c) 2017 Manvel Avetisian
