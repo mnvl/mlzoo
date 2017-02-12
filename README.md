@@ -16,6 +16,12 @@ ReLU + Softmax, SGD | MNIST | [neural_network_2_layers_mnist.ipynb](neural_netwo
 3 * ReLU + Softmax, SGD | CIFAR-10 | [neural_network_4_layers_cifar10.ipynb](neural_network_4_layers_cifar10.ipynb)
 3 * ReLU + Softmax, SGD + Momentum | CIFAR-10 | [neural_network_4_layers_with_momentum_cifar10.ipynb](neural_network_4_layers_with_momentum_cifar10.ipynb)
 
+## SVM
+
+Configuration | Dataset | Link
+--- | --- | ---
+kernel: dot product | synthetic (two gaussians) | [svm_dot_cvxopt.ipynb](svm_dot_cvxopt.ipynb)
+
 ## License
 Copyright (c) 2017 Manvel Avetisian
 
