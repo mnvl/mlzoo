@@ -18,9 +18,9 @@ ReLU + Softmax, SGD | MNIST | [neural_network_2_layers_mnist.ipynb](neural_netwo
 
 ## SVM
 
-Configuration | Dataset | Link
+Kernel | Dataset | Link
 --- | --- | ---
-kernel: dot product | synthetic (two gaussians) | [svm_dot_cvxopt.ipynb](svm_dot_cvxopt.ipynb)
+dot product | synthetic (two gaussians) | [svm_dot_cvxopt.ipynb](svm_dot_cvxopt.ipynb)
 
 ## License
 Copyright (c) 2017 Manvel Avetisian
