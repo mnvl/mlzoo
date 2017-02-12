@@ -2,8 +2,6 @@
 
 Simple and clean implementations of machine learning algorithms in pure Python. Written with love for fun and education.
 
-The code is a little bit on a rough side, and probably not always correct (because only thorough testing can prove that a code is correct). However, the idea is to dive into the code to get a feel of how given algorithm work, and for that task the notebooks seem wonderful.
-
 ## Principles
 1. one notebook -- one algorithm,
 2. each notebook should be self contained,
@@ -21,7 +19,8 @@ ReLU + Softmax, SGD | MNIST | [neural_network_2_layers_mnist.ipynb](neural_netwo
 
 Kernel | Dataset | Optimization | Link
 --- | --- | --- | ---
-polynomial | synthetic (two gaussians), MNIST (two classes) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_polynomial_cvxopt.ipynb](svm_polynomial_cvxopt.ipynb)
+polynomial | synthetic (gaussians), MNIST (two classes) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_polynomial_cvxopt.ipynb](svm_polynomial_cvxopt.ipynb)
+RBF | synthetic (spirals) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_rbf_cvxopt.ipynb](svm_rbf_cvxopt.ipynb)
 
 ## License
 Copyright (c) 2017 Manvel Avetisian
