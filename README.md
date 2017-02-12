@@ -2,8 +2,6 @@
 
 Simple and clean implementations of machine learning algorithms in pure Python. Written with love for fun and education.
 
-The code is a little bit on a rough side, and probably not always correct (because only thorough testing can prove that a code is correct). However, the idea is to dive into the code to get a feel of how given algorithm work, and for that task the notebooks seem wonderful.
-
 ## Principles
 1. one notebook -- one algorithm,
 2. each notebook should be self contained,
