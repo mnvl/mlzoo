@@ -21,7 +21,8 @@ ReLU + Softmax, SGD | MNIST | [neural_network_2_layers_mnist.ipynb](neural_netwo
 
 Kernel | Dataset | Optimization | Link
 --- | --- | --- | ---
-polynomial | synthetic (two gaussians), MNIST (two classes) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_polynomial_cvxopt.ipynb](svm_polynomial_cvxopt.ipynb)
+polynomial | synthetic (gaussians), MNIST (two classes) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_polynomial_cvxopt.ipynb](svm_polynomial_cvxopt.ipynb)
+RBF | synthetic (spirals) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_rbf_cvxopt.ipynb](svm_rbf_cvxopt.ipynb)
 
 ## License
 Copyright (c) 2017 Manvel Avetisian
