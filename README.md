@@ -8,15 +8,15 @@ Simple and clean implementations of machine learning algorithms in pure Python. 
 3. implementations should be as straightforward and easy to read as possible
 
 ## Neural Networks
-Configuration | Dataset | Link
---- | --- | ---
-ReLU + Softmax, SGD | MNIST | [neural_network_2_layers_mnist.ipynb](neural_network_2_layers_mnist.ipynb)
-2 * ReLU + Softmax, SGD | MNIST | [neural_network_3_layers_mnist.ipynb](neural_network_3_layers_mnist.ipynb)
-3 * ReLU + Softmax, SGD + Momentum | CIFAR-10 | [neural_network_4_layers_cifar10.ipynb](neural_network_4_layers_cifar10.ipynb)
+Configuration | Dataset | Optimizer | Link
+--- | --- | --- | ---
+ReLU + Softmax | MNIST | SGD | [neural_network_2_layers_mnist.ipynb](neural_network_2_layers_mnist.ipynb)
+2 * ReLU + Softmax | MNIST | SGD | [neural_network_3_layers_mnist.ipynb](neural_network_3_layers_mnist.ipynb)
+3 * ReLU + Softmax | CIFAR-10 | SGD + Momentum | [neural_network_4_layers_cifar10.ipynb](neural_network_4_layers_cifar10.ipynb)
 
 ## SVM
 
-Kernel | Dataset | Optimization | Link
+Kernel | Dataset | Optimizer | Link
 --- | --- | --- | ---
 polynomial | synthetic (gaussians), MNIST (two classes) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_polynomial_cvxopt.ipynb](svm_polynomial_cvxopt.ipynb)
 RBF | synthetic (spirals and uniform rand) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_rbf_cvxopt.ipynb](svm_rbf_cvxopt.ipynb)
