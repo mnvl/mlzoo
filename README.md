@@ -2,7 +2,7 @@
 
 Simple and clean implementations of machine learning algorithms in pure Python. Written with love for fun and education.
 
-## Design Principles
+## The Rules 
 1. one notebook -- one algorithm
 2. each notebook should be self contained
 3. implementations should be as straightforward and easy to read as possible
