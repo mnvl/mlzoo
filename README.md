@@ -7,12 +7,10 @@ Simple and clean implementations of machine learning algorithms in pure Python. 
 2. each notebook should be self contained
 3. implementations should be as straightforward and easy to read as possible
 
-## Neural Networks
-Configuration | Dataset | Link
+## Old School Cool
+Algorithm | Dataset | Link
 --- | --- | ---
-ReLU + Softmax, SGD | MNIST | [neural_network_2_layers_mnist.ipynb](neural_network_2_layers_mnist.ipynb)
-2 * ReLU + Softmax, SGD | MNIST | [neural_network_3_layers_mnist.ipynb](neural_network_3_layers_mnist.ipynb)
-3 * ReLU + Softmax, SGD + Momentum | CIFAR-10 | [neural_network_4_layers_cifar10.ipynb](neural_network_4_layers_cifar10.ipynb)
+Logistic regression, gradient descent optimization | MNIST | [logistic_regression.ipynb](logistic_regression.ipynb)
 
 ## SVM
 
@@ -20,6 +18,13 @@ Kernel | Dataset | Optimization | Link
 --- | --- | --- | ---
 polynomial | synthetic (gaussians), MNIST (two classes) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_polynomial_cvxopt.ipynb](svm_polynomial_cvxopt.ipynb)
 RBF | synthetic (spirals and uniform rand) | quadratic programming (using [CVXOPT](http://cvxopt.org/)) | [svm_rbf_cvxopt.ipynb](svm_rbf_cvxopt.ipynb)
+
+## Neural Networks
+Configuration | Dataset | Link
+--- | --- | ---
+ReLU + Softmax, SGD | MNIST | [neural_network_2_layers_mnist.ipynb](neural_network_2_layers_mnist.ipynb)
+2 * ReLU + Softmax, SGD | MNIST | [neural_network_3_layers_mnist.ipynb](neural_network_3_layers_mnist.ipynb)
+3 * ReLU + Softmax, SGD + Momentum | CIFAR-10 | [neural_network_4_layers_cifar10.ipynb](neural_network_4_layers_cifar10.ipynb)
 
 ## License
 Copyright (c) 2017 Manvel Avetisian
