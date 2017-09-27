@@ -1,4 +1,4 @@
-# zoo
+# mlzoo
 
 Simple and clean implementations of machine learning algorithms in pure Python. Written with love for fun and education.
 
